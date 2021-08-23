@@ -3,6 +3,7 @@
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
+Это проект по викторине, которую я делаю. Здесь будут писаться дальнейшие изменения и я напишу, как запустить этот проект
 
 In the project directory, you can run:
 
