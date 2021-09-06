@@ -126,7 +126,7 @@ import { auth } from '../../redux/actions/auth';
           <form onSubmit={this.submitHandler} className={classes.AuthForm}>
             {this.renderInputs()}
 
-            <Button type="success" onClyick={this.loginHandler} disabled={!this.state.isFormValid}>
+            <Button type="success" onClick={this.loginHandler} disabled={!this.state.isFormValid}>
               Login
             </Button>
 

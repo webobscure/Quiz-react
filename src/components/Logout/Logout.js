@@ -1,11 +1,15 @@
-import { getDefaultNormalizer } from '@testing-library/react'
 import React, {Component} from 'react'
 import { connect } from 'react-redux'
+import {Redirect} from 'react-router-dom'
 import {logout} from '../../redux/actions/auth'
 
 class Logout extends Component {
     componentDidMount() {
-        getDefaultNormalizer()
+        this.props.logout()
+        
+    }
+    render() {
+        return <Redirect to={'/'} />
     }
 }
 
